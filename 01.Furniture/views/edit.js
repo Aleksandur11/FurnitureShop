@@ -61,4 +61,6 @@ export async function editPage(ctx){
      await editRecord(data,item._id);
      ctx.page.redirect('/')
    }
+
+   
 }
